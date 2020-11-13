@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 int main()
 {
@@ -11,10 +10,10 @@ int main()
     int Pscore =0;
     int Cscore =0;
     int choice;
-    srand(time(NULL));
     printf("Rock=1 , Paper= 2, and Scissors= 3\n");
 
-    for(i=0;i<5;i++){
+	for (i=0; i<5; i++){
+	if (Cscore < 2 && Pscore < 2){
         printf("Enter your choice:");
         scanf("%d",&choice);
             int computer=rand()%3+1;
@@ -57,23 +56,19 @@ int main()
                         Pscore = Pscore + 1;
 
                     }
-                }
-        else{
+		}
+                
+       else{
             printf("Wrong Answer\n");
         }
 
-            }
-            if(Cscore > Pscore ){
+	}         
+	else if(Cscore = 2 ){
                 printf("Computer wins %d to %d\n",Cscore,Pscore);
             }
-            else if(Cscore < Pscore ){
+            else if(Pscore = 2 ){
                 printf("Player wins %d to %d\n",Pscore,Cscore);
             }
-           else if(Cscore = Pscore ){
-                printf("No winner it is a draw!\n");
-            }
-
-
-
-    return 0;
+	}
+   return(0);
 }
