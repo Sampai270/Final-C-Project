@@ -1,2 +1,2 @@
-# Final-C-Project
-The shared repository for our final C project so both of us can (hopefully) edit it(idk how this works)
+# Final-C-Project by Vitamin C++
+Welcome to the repository of our group! This repo will consist of our makefile, the readme file, and acutal C file for our Rock, Paper Scissors code. The game is a best out of 3 with player versus computer style. The computer's input is randomized and all results of the game is dependent on the user's input. Draws count as no score and first to 2 round wins win it all! Good luck playing this game and hopefully you enjoy our code! Evan Lutchmidat and Samuel Hui from CS 102-B.
