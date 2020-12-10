@@ -19,39 +19,39 @@ int main()
             int computer=rand()%3+1;
             if (choice==1) {
                 if (computer==1) {
-                    printf("The Computer chose rock, too!\n Draw!\n");
+                    printf("The Computer chose rock, too!\nDraw!\n");
                 }
                 if (computer==2) {
-                    printf("The Computer chose paper!\n The Computer wins!\n");
+                    printf("The Computer chose paper!\nThe Computer wins!\n");
                     Cscore= Cscore + 1;
                 }
                 if (computer==3) {
-                    printf("The Computer chose scissors!\n You win!\n");
+                    printf("The Computer chose scissors!\nYou win!\n");
                     Pscore = Pscore + 1;
                 }
             }
             else if (choice==2) {
                 if (computer==2) {
-                    printf("The Computer chose paper, too!\n Draw!\n");
+                    printf("The Computer chose paper, too!\nDraw!\n");
                 }
                 if (computer==3) {
-                    printf("The Computer chose scissors!\n The Computer wins!\n");
+                    printf("The Computer chose scissors!\nThe Computer wins!\n");
                     Cscore = Cscore + 1;
                 }
                 if (computer==1) {
-                    printf("The Computer chose rock!\n You win!\n");
+                    printf("The Computer chose rock!\nYou win!\n");
                     Pscore= Pscore + 1;
                 }
             } else if (choice==3) {
                 if (computer==3) {
-                    printf("The Computer chose scissors, too!\n Draw!\n");
+                    printf("The Computer chose scissors, too!\nDraw!\n");
                 }
                 if (computer==2) {
-                    printf("The Computer chose paper!\n You win!\n");
+                    printf("The Computer chose paper!\nYou win!\n");
                     Pscore= Pscore + 1;
                 }
                 if (computer==1) {
-                    printf("The Computer chose rock!\n The Computer wins!\n");
+                    printf("The Computer chose rock!\nThe Computer wins!\n");
                     Cscore = Cscore + 1;
                 }
             }
@@ -60,11 +60,11 @@ int main()
             }
 
         }        
-        else if (Cscore == 2 ) {
+        else if (Cscore == 2) {
             printf("Better luck next time! The Computer wins %d to %d\n",Cscore,Pscore);
             break;
         }
-        else if (Pscore == 2 ) {
+        else if (Pscore == 2) {
             printf("Great Job! You win %d to %d\n", Pscore, Cscore);
             break;
         }
