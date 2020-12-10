@@ -63,7 +63,7 @@ int main()
 		    break;
             
                 default:
-                    printf("Wrong Answer\n");
+                    printf("Choose a value between 1 and 3\n");
 
             }        
             if (Cscore == 2) {
