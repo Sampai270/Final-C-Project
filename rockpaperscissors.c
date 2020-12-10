@@ -3,9 +3,9 @@
 
 int main()
 {
-    int R=1;
+    /*int R=1;
     int P=2;
-    int S=3;
+    int S=3;*/
     int i;
     int Pscore =0;
     int Cscore =0;
@@ -63,11 +63,11 @@ int main()
         }
 
 	}         
-	else if(Cscore = 2 ){
+	else if(Cscore == 2 ){
                 printf("Computer wins %d to %d\n",Cscore,Pscore);
 		break;
             }
-            else if(Pscore = 2 ){
+            else if(Pscore == 2 ){
                 printf("Player wins %d to %d\n",Pscore,Cscore);
 		break;
             }
